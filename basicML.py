@@ -1,6 +1,6 @@
 # summarize the data
 from pandas import read_csv
-from pandas import scatter_matrix
+from pandas.plotting import scatter_matrix
 import matplotlib.pyplot as plt
 # Load dataset
 url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
